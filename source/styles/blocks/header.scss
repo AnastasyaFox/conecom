@@ -1,0 +1,31 @@
+.page__header {
+  width: 167px;
+  height: 65px;
+  background-color: #0A398A;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  position: relative;
+}
+
+.page__body {
+  position: relative;
+}
+
+.page__body::before {
+  content: "";
+  top: 0;
+  position: absolute;
+  display: block;
+  min-width: 290px;
+  height: 352px;
+  z-index: -1;
+  background-position: center top 0;
+  background-repeat: no-repeat;
+  background-image: url("../../images/background-photo-dasktop.jpg");
+}
+
+.logo {
+  width: 153px;
+  margin-left: 7px;
+}
